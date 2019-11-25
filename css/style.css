@@ -39,5 +39,23 @@ background-color: #1b1e21;
 }
 .gabriola{
     font-family: Gabriola;
-    font-size:600%;
+    font-size:300%;
+}
+.gradient{
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    padding: 10px;
+    border: 1px solid #333;
+}
+.gradient_2{
+    background: linear-gradient(to bottom, #fefcea, #17a115);
+    padding: 10px;
+    border: 1px solid #333;
+}
+.semilayer{
+    padding: 5px; /* Поля вокруг текста */
+    background: #1b1e21; /* Цвет фона */
+    margin: 0 auto; /* Выравниваем слой по центру */
+    width: 80%; /* Ширина слоя */
+    opacity: 0.6; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
 }
